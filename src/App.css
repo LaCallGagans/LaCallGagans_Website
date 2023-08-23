@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: overlay;
+}
+
+*::-webkit-scrollbar {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 14px;
+}
+
+@tailwind utilities;
